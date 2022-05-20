@@ -1,6 +1,15 @@
 //import logo from "./logo.svg";
 import "./App.css";
-import ForwardRefParent from "./component/ForwardRefParent";
+
+// import CounterRenderProps from "./component/CounterRenderProps";
+// import ClickCounterTwo from "./component/ClickCounterTwo";
+// import HovernCounter2 from "./component/HovernCounter2";
+// import ClickCounter from "./component/ClickCounter";
+// import HovernCounter from "./component/HovernCounter";
+// import ErrorBoundary from "./component/ErrorBoundary";
+// import Hero from "./component/Hero";
+// import PortalsDemo from "./component/PortalsDemo";
+// import ForwardRefParent from "./component/ForwardRefParent";
 //import RefsDemo from "./component/RefsDemo";
 // import ParentComp2 from "./component/ParentComp2";
 //import Greet from "./component/Greet";
@@ -23,12 +32,58 @@ import ForwardRefParent from "./component/ForwardRefParent";
 //import LifeCycleMount from "./component/LifeCycleMount";
 //import LifeCycleUpdate from "./component/LifeCycleUpdate";
 // import Fragment from "./component/Fragment";
+// import { UserProvider } from "./component/UserContext";
+// import LevelOneComp from "./component/LevelOneComp";
+
+// import PostList from "./component/PostList";
+import PostForm from "./component/PostForm";
 
 function App() {
   return (
     <div className="App">
+      <PostForm></PostForm>
+      {/* <PostList></PostList> */}
 
-      <ForwardRefParent></ForwardRefParent>
+      {/* <UserProvider value="Mohan">
+        <LevelOneComp></LevelOneComp>
+      </UserProvider> */}
+
+      {/* <CounterRenderProps
+        render={(count, incrCount) => (
+          <ClickCounterTwo
+            count={count}
+            incrCount={incrCount}
+          ></ClickCounterTwo>
+        )}
+      ></CounterRenderProps>
+
+      <CounterRenderProps
+        render={(count, incrCount) => (
+          <HovernCounter2 count={count} incrCount={incrCount}></HovernCounter2>
+        )}
+      ></CounterRenderProps> */}
+
+      {/* <ClickCounterTwo></ClickCounterTwo>
+      <HovernCounter2></HovernCounter2> */}
+
+      {/* <ClickCounter id="10"></ClickCounter>
+      <HovernCounter id="11"></HovernCounter> */}
+
+      {/* <ErrorBoundary>
+        <Hero name="Ironman"> </Hero>
+      </ErrorBoundary>
+
+      <ErrorBoundary>
+        <Hero name="Batman"> </Hero>
+      </ErrorBoundary>
+      
+      <ErrorBoundary>
+        <Hero name="Joker"> </Hero>
+      </ErrorBoundary> */}
+
+      {/* <PortalsDemo></PortalsDemo> */}
+
+      {/* <ForwardRefParent></ForwardRefParent> */}
       {/* <RefsDemo></RefsDemo> */}
 
       {/* <ParentComp2></ParentComp2> */}
